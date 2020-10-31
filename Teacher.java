@@ -1,17 +1,17 @@
 package studentcours;
 
-public class Teacher {
-		 private int teacherid;
-		 private String teacherName;
+public class Teacher extends person {
+		 int teacherid;
+		 String teacherName;
 
 		 
 		 public Teacher() {
 		  super();
 
 		 }
-		 public Teacher(int id,String teacherName){
+		 public Teacher(int Id,String teacherName){
 		  this.teacherid=id;
-		  this.teacherName=teacherName;
+		  this.teacherName=name;
 		 }
 		 public String getTeacherName() {
 		  return teacherName;

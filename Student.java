@@ -1,9 +1,9 @@
 package studentcours;
 
-public class Student {
-	 private String stuName;
-	 private int stuId;
-	 private Course[] courses;
+public class Student{
+	 String stuName;
+	 int stuId;
+	 Course[] courses;
 
 	 public Student() {
 	  super();
